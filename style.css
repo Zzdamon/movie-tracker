@@ -1,0 +1,123 @@
+.container{
+    display: flex;
+    /* justify-content:left ; */
+}
+
+.header{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Recursive', sans-serif;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    /* background-color: #a32242; */
+}
+
+.header h1 ,p{
+    margin: 0;
+}
+
+.poster, .specs{
+    display: flex;
+    /* flex-direction: column; */
+
+}
+
+ #movie{
+    display: flex;
+    flex-direction: row;
+    /* height: 300px;
+    width: 445px; */
+}
+
+.listContainer{
+    /* margin: 20px; */
+    background-color:  #73001d;
+
+}
+
+
+.movie{
+    /* margin: 20px; */
+    padding: 10px;
+    /* border: 20px;
+    border-style: solid;
+    border-color: #73001d; */
+    margin:20px;
+}
+
+
+.ListHeader h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Recursive', sans-serif;
+    font-size: 35px;
+    color: white;
+    margin-left: 20px;
+}
+
+li{
+    display: flex;
+    background-color: white;
+
+}
+.specs{
+    flex-direction: column;
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.specs h2{
+    font-size: 60px;
+    margin: 0;
+    /* margin-left: 5px; */
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Recursive', sans-serif;
+}
+
+.specs p{
+    margin: 30px 30px 0px 0px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+}
+
+.formular{
+    border: 10px;
+    border-style: solid;
+    border-color: #73001d;
+    padding: 10px;
+
+
+}
+
+
+button{
+    display: flex;
+    text-decoration: none;
+
+    background-color: white;
+    padding: 7px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.12);
+    transition: all 0.3s;
+}
+form{
+    margin:12px;
+
+    
+}
+.formular{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.sortings{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

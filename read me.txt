@@ -1,0 +1,1 @@
+am pus fisierele js si cu extensia schimbata in folderul "js files" in cazul in care se strica celelalte
