@@ -1,5 +1,5 @@
 # movie-tracker
-Simple movie tracker app with vanilla javascript
+Simple movie tracker app made with vanilla javascript
 
 ## Functionalities
  * The user can input the name of a movie they like
